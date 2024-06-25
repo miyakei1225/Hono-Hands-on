@@ -5,5 +5,5 @@ export const View = () => {
         <h1>Hello Hono</h1>
       </body>
     </html>
-  );
-};
+  )
+}
