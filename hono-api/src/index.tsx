@@ -23,11 +23,6 @@ app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
-// Raw Responseを返す実装例
-// app.get("/", (c) => {
-//   return new Response("Good morning!");
-// });
-
 app.get('/api/hello', (c) => {
   return c.json({
     ok: true,
